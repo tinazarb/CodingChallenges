@@ -1,3 +1,3 @@
 # CodingChallenges
 
-Repository for my coding challenges from CodeWars
+Welcome to my repository for my CodeWars!
