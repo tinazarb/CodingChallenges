@@ -40,3 +40,17 @@ class Queue{
     return this.queue.length
   }
 }
+
+// Other solutions:
+
+class Queue {
+  constructor(){ this.q = [] }
+  enqueue(item){ this.q.unshift(item) }
+  dequeue(){ return this.q.pop() }
+  size(){ return this.q.length }
+}
+
+var Queue = Array;
+Queue.prototype.enqueue = Array.prototype.push;
+Queue.prototype.dequeue = Array.prototype.shift;
+Queue.prototype.size = function() {return this.length; };
