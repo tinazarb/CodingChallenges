@@ -34,3 +34,10 @@ function fib(n){
   }
   return arr[n]
 }
+
+// Fibonacci Recursive:
+
+function fib(num){
+  if(num<2){return num}
+  return fib(num-1) + fib(num-2)
+}
