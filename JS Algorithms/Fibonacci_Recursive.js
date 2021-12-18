@@ -31,3 +31,8 @@ function fib(n){
   if(n<2){return n}
   return fib(n-1) + fib(n-2)
 }
+
+//Other Solutions:
+function factorial(n){
+  return n < 2 ? 1 : n * factorial(n-1)
+}
