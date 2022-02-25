@@ -27,5 +27,4 @@ function mygcd(x, y){
     if ( x % j === 0 && y % j === 0){
       return j
     }
-  }
-}
+  }}
